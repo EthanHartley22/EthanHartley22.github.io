@@ -6,3 +6,5 @@ title: "Anticipatory Effects of Regional Trade Agreements: Modeling Complex Trad
 date:
 paperurl: 
 ---
+
+<div id="tableauViz" style="margin-bottom: 1em"></div>
