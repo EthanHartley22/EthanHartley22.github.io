@@ -1,16 +1,16 @@
 {
   "basics": {
     "name": "Ethan Hartley",
-    "label": "PhD Candidate, University of Hawaii at Manoa",
+    "label": "PhD Candidate",
     "picture": "images/Ethan_H_Pro.JPG",
     "email": "ehartley@hawaii.edu",
     "phone": "",
     "website": "https://EthanHartley22.github.io",
-    "summary": "An interdisciplinary and innovative scientist combining both wet-lab expertise with computational skills. A team-oriented drug discovery biologist with experience contributing in cross-functional teams. Broad interests with projects spanning oncology, liver disease, and infectious disease.",
+    "summary": "",
     "location": { "address": "", "postalCode": "96818", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/kambergjohnson" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/katieambergjohnson" }
+      { "network": "github", "username": "EthanHartley22", "url": "https://github.com/EthanHartley22" },
+      { "network": "linkedin", "username": "ethanhartley99", "url": "https://www.linkedin.com/in/ethanhartley99/" }
     ]
   }
 }
