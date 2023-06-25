@@ -17,7 +17,7 @@
   --tf-page-bg-color: var(--bs-white);
   --tf-footer-bg-color: var(--bs-white);
   --tf-papers-bg-color: var(--tf-blue3);
-  --tf-papers_working-bg-color: var(--tf-blue1);
+  --tf-working-papers-bg-color: var(--tf-blue3);
   --tf-projects-bg-color: var(--bs-white);
 }
 

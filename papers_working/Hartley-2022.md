@@ -1,9 +1,9 @@
 ---
 layout: paper
-type: paper
+type: working-paper
 published: true
 title: "test"
-date: 2022
+date: 2018
 paperurl: 
 ---
-Hartley, E. (2022)
+Hartley, E. (2018)

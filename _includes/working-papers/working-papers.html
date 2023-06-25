@@ -1,4 +1,4 @@
-<div style="background-color: var(--tf-papers-bg-color)" class="bg-gradient py-3" id="working-papers">
+<div style="background-color: var(--tf-working-papers-bg-color)" class="bg-gradient py-3" id="working-papers">
   <div class="container">
     <div class="row mb-3">
       <div class="col-md-6">
@@ -7,8 +7,8 @@
     </div>
 
     <div class="row g-3">
-      {% assign paper_pages = site.pages | where: "type", "paper" | sort: "date" | reverse %}
-      {% for page in paper_pages %}
+      {% assign working_paper_pages = site.pages | where: "type", "working-paper" | sort: "date" | reverse %}
+      {% for page in working_paper_pages %}
         {% unless page.draft %}
           {% include working-papers/working-paper-card.html page=page %}
         {% endunless %}
@@ -18,8 +18,8 @@
       {% endfor %}
     </div>
 
-    {% if paper_pages.size > include.limit %}
-      <p class="text-center pt-4"><a href="{{ site.baseurl}}/papers_working/">See all {{ paper_pages.size }} papers</a></p>
+    {% if working_paper_pages.size > include.limit %}
+      <p class="text-center pt-4"><a href="{{ site.baseurl}}/papers_working/">See all {{ working_paper_pages.size }} working-papers</a></p>
     {% endif %}
 
   </div>
