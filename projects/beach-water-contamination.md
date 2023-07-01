@@ -4,7 +4,7 @@ type: project
 image: images/kailua-beach.jpg
 title: "Vacation Contamination: Predicting Beach Water Pollution"
 date: 2018
-published: true
+published: false
 labels:
   - Data Science
 summary: "I used Gradient Boosted Decision Trees to create a predictive model for bacterial pollution based on State of Hawaii water sampling data."

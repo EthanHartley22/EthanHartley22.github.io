@@ -1,10 +1,10 @@
 ---
 layout: project
 type: project
-image: images/gsk-immunohack.png
+image: images/kobe_logo.png
 title: "GSK Immunohack: TwoBirds"
 date: 2018
-published: true
+published: false
 labels:
   - Hackathon
   - Vaccinations
