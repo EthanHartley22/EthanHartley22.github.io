@@ -1,0 +1,46 @@
+/* Rubik Theme: modifies the default theme to use the chunkier Rubik for the header fonts. */
+
+/* Use Open Sans as the default font and Roboto for headlines */
+@import url("https://fonts.googleapis.com/css?family=Lora:300,400,500,700|Source+Code+Pro:300,400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Lora:300,400,500,700");
+
+/* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
+:root {
+  --tf-blue1: #62a2b7;
+  --tf-blue2: #81b5c5;
+  --tf-blue3: #a1c7d4;
+  --tf-blue4: #c0dae2;
+  --bs-font-sans-serif: "Lora", Lora;
+  --bs-link-color: var(--bs-white);
+  --tf-pill-bg: var(--tf-blue3);
+  --tf-icon-fill: var(--bs-white);
+  --tf-page-bg-color: var(--tf-blue2);
+  --tf-footer-bg-color: var(--bs-white);
+  --tf-papers-bg-color: var(--bs-white);
+  --tf-projects-bg-color: var(--tf-blue2);
+  --tf-working-papers-bg-color: var(--bs-white);
+}
+
+
+h1,h2,h3,h4,h5 {
+  font-family: Lora;
+}
+
+/* Format social media icons */
+.tf-social {
+  display: inline-block;
+  fill: var(--tf-icon-fill);
+  height: 1.5em;
+  vertical-align: -.1em;
+  width: 1.5em;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Simplify the styling of the bottom of Essay cards. */
+.card-footer {
+  background-color: var(--bs-white);
+  border-top: none;
+}
