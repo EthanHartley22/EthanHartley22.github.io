@@ -2,7 +2,7 @@
 layout: paper
 type: working-paper
 published: true
-title: "Distributional Impacts of Dynamic Pricing Transitions for Residential Electircity Consumers"
+title: "Distributional Impacts of Dynamic Pricing Transitions for Residential Electricity Consumers"
 date: 10/5/2023
 paperurl: 
 ---
