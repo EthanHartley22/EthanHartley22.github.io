@@ -19,6 +19,8 @@ jobs:
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: |
             ${{ runner.os }}-gems-
+          env:
+            BUNDLER_VERSION: 2.4.22
       - name: validate-bio-json-file
         uses: limitusus/json-syntax-check@v1
         with:
