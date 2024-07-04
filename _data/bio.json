@@ -6,7 +6,7 @@
     "email": "ehartley@hawaii.edu",
     "phone": "",
     "website": "https://EthanHartley22.github.io",
-    "summary": "I am a Ph.D. student in the Department of Economics at the University of Hawaii at Manoa where I work with Dr. Michael Roberts & Dr. Nori Tarui. My primary research interest lies in the integration of artificial intelligence into the tradtional econometric workflow. My applied work focuses on international economics and energy & environmental economics.",
+    "summary": "I am a Ph.D. student in the Department of Economics at the University of Hawaii at Manoa advised by Dr. Michael Roberts. My research is in the areas of causal inference, the intersection of machine learning and econometrics, and environmental & energy economics. I am currently studying variable pricing mechanisms and energy sector decarbonization pathways using both observational data and capacity expansion modeling, the impacts of climate change on energy consumption, and the contemporaneous and chronic health effects of air pollution. My other work focues on technical applications of deep learning in econometrics as well as high performance computing for quantitative modeling and harnessing big data. <br><br>I am funded through the U.S. Department of Energy's IBUILD Graduate Research Fellowship managed by the Oak Ridge National Laboratory. Additionally, I have spent time at Amazon on the Supply Chain Optimization Team working on experimental validation of causal machine learning methods.",
     "location": { "address": "", "postalCode": "96818", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "EthanHartley22", "url": "https://github.com/EthanHartley22" },
