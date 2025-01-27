@@ -3,7 +3,8 @@ layout: project
 type: project
 image: images/kobe.jpeg
 title: "Distributional Impacts of Dynamic Pricing Transitions for Residential Electricity Consumers"
-date: 7/2023
+date: 2023-07-11
+display-date: 7/2023
 published: True
 labels:
   - Energy 

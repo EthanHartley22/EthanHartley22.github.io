@@ -1,26 +1,26 @@
 <div class="card mb-3">
   <div class="row g-0">
-    <div class="col-sm-5 col-md-3">
+    <!-- Column for image: center it vertically -->
+    <div class="col-sm-5 col-md-3 d-flex align-items-center"> <!-- Center image vertically -->
       <img src="{{ site.baseurl }}/{{ include.page.image }}" width="300px" class="rounded-start">
     </div>
 
-    <div class="col-sm-6 col-md-8" style="margin-left: 25px;">
-
+    <!-- Column for text: top-align the content -->
+    <div class="col-sm-6 col-md-8 d-flex align-items-start" style="margin-left: 25px;"> <!-- Top-align text -->
       <div class="card-body">
         <h5 class="card-title">{{ include.page.title }} 
-          <small class="text-muted float-end" style="margin-right:-25px; text-align:right;">{{ include.page.display-date }}</small></h5>
-
+          <small class="text-muted" style="position: absolute; top: 0; right: 0; margin-right: 10px; text-align:right;">{{ include.page.display-date }}</small>
+        </h5>
         <p class="card-text">{{ include.page.summary }}</p>
         <p>
           {% for label in include.page.labels %}
-          <span style="background-color: var(--tf-pill-bg)" class="badge rounded-pill">{{ label }}</span>
+            <span style="background-color: var(--tf-pill-bg)" class="badge rounded-pill">{{ label }}</span>
           {% endfor %}
-
         </p>
         {% if page.projecturl %}
-        <a href="{{ page.projecturl }}" class="btn btn-outline-dark">Project Site</a>
+          <a href="{{ page.projecturl }}" class="btn btn-outline-dark">Project Site</a>
         {% else %}
-        <a href="{{ site.baseurl}}{{ include.page.url }}" class="btn btn-outline-dark">Read More</a>
+          <a href="{{ site.baseurl}}{{ include.page.url }}" class="btn btn-outline-dark">Read More</a>
         {% endif %}
       </div>
     </div>

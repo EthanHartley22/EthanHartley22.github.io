@@ -4,7 +4,7 @@ type: project
 image: images/Shift_&_Save.png
 title: "Time-of-Use Electricity Pricing: Implications of Hawai'i's Pilot Program"
 date: 2023-09-11
-display-date: 2023
+display-date: 11/2023
 published: true
 labels:
   - Workshop
